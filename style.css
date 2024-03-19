@@ -1,0 +1,43 @@
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+    color: blueviolet;
+}
+p {
+    color: chartreuse;
+    background-color: blue;
+    text-align: center;
+}
+
+body { 
+    background-color: black;
+}
+
+/*Ele sempre segue a ultima informação*/
+h1, h4 {
+    background-color: aqua;
+    text-align: center;
+    color: brown;
+}
+/*Class*/
+.verde {
+    color: forestgreen;
+    background-color: aquamarine;
+}
+/*ID*/
+#laranja {
+    color: orange;
+    background-color: orangered;
+}
+
+/*Seletores descendentes*/
+p strong {
+    color: yellow;
+    background-color: yellowgreen;
+}
+p > span {
+    color: violet;
+}
+h1 ~ p {
+    color: darkblue;
+}
